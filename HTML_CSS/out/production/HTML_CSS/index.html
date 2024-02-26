@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Album</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my Song</h1>
+        <div class="lyrics">
+            The easiest way,
+            <br>
+            Is to get rid of yourself,
+            <br>
+            My mamma ask me, am I okay
+            <br>
+            You look not happy these days
+            <br>
+            Mamma I am dying inside
+            <br>
+            These people give me a fuck
+        </div>
+        <button class="btn" onclick="displayText()">Click Me</button>
+    </div>
+
+    <script>
+        function displayText() {
+            var btn = document.querySelector('.btn');
+            btn.textContent = "Thank you for a click!"
+        }
+    </script>
+</body>
+</html>

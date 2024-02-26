@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Album</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my Song</h1>
+        <div class="lyrics">
+            We have just taken a breath,
+            <br>
+            Let's take a seat,
+            <br>
+            The disease of mindset,
+            <br>
+            There is still no access
+        </div>
+        <button class="btn" onclick="displayText()">Click Me</button>
+    </div>
+
+    <script>
+        function displayText() {
+            var btn = document.querySelector('.btn');
+            btn.textContent = "Thank you for a click!"
+        }
+    </script>
+</body>
+</html>

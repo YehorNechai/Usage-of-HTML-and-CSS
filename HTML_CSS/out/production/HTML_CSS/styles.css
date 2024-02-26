@@ -1,0 +1,30 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+h1 {
+    color: #333;
+}
+
+.lyrics {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #7eb1e0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #09448a;
+}
